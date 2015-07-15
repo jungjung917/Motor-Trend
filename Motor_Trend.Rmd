@@ -1,0 +1,14 @@
+---
+title: "Motor Trend"
+author: "Zhengshi Zhao"
+date: "July 15, 2015"
+output: pdf_document
+---
+
+This work is aimed to explor the relation between miles per gallon (MPG) and other car variables.  Particularly about, 1, Is an automatic or manual transmission better for MPG? 2, Quantify the MPG difference between automatic and manual transmissions? 
+
+
+```{r, echo=FALSE}
+library(datasets)
+DT<-data.frame(mtcars)
+```
